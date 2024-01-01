@@ -1,0 +1,29 @@
+GET http://localhost:5000/account/hello
+###
+POST  http://localhost:5000/account/sign-up
+content-type: application/application/json
+
+{
+    "username": "malik fajar al bantanie",
+    "email": "malikfajar06s09@gmail.com",
+    "password": "12345ss67890",
+}
+
+###
+POST  http://localhost:5000/account/sign-in
+content-type: application/application/json
+
+{
+    "email": "malikfajar0609@gmail.com",
+    "password": "1234567890",
+}
+###
+GET http://localhost:5000/profile/getProfile
+###
+POST  http://localhost:5000/profile/createProfile
+content-type: application/application/json
+
+{
+    "display": "malikfajar0609@gmail.com",
+    "gender": "male",
+}
